@@ -1,0 +1,84 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: auto;
+   font-size: 15px;
+   background: color #932340;
+   line-height: 1.7;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#main {
+   margin: auto;
+   background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 20px 200px;
+}
+
+#ado {
+   font-size: 20px;
+   padding: 20px 200px;
+   list-style: georgian;
+}
+
+p {
+   display: block;
+   margin-block-start: 2em;
+   margin-block-end: 2em;
+}
+
+#section-a {
+   background-color: #926239;
+   color: white;
+   padding: 10px;
+   font-weight: lighter;
+   font-size: larger;
+   text-align: center;
+}
+
+#section-b {
+   padding: 20px;
+   font-weight: lighter;
+   font-size: larger;
+   text-align: center;
+   color: #926239;
+}
+
+#section-c {
+   display: flex;
+}
+
+#box1,
+#box3 {
+   background-color: #926239;
+   color: white;
+   padding: 10px;
+   font-weight: lighter;
+   font-size: larger;
+   text-align: center;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   text-align: center;
+}
+
+#box2,
+#box4 {
+   padding: 20px;
+   font-weight: lighter;
+   font-size: larger;
+   text-align: center;
+   color: #926239;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   text-align: center;
+}
